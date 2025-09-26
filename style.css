@@ -7,8 +7,9 @@ body {
 }
 
 #container {
-  max-width: 700px;
+  
   margin: auto;
+  max-width: 700px;
 }
 
 #country-details {
@@ -20,12 +21,9 @@ body {
 }
 
 #country-details img {
- 
+  height:500px;
+  margin: 10px 0;
   border-radius: 4px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 500px;
 }
 
 #country-form {
