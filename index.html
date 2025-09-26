@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Travel Planner</h1>
+
+    <!-- Country details -->
+    <section id="country-details">
+      <h2 id="country-name">Select a country</h2>
+      <img id="image" src="" alt="Country image" />
+      <p><strong>Capital:</strong> <span id="capital"></span></p>
+      <p><strong>Region:</strong> <span id="region"></span></p>
+      <p><strong>Tip:</strong> <span id="tip"></span></p>
+    </section>
+
+    <!-- Travel form -->
+    <form id="country-form">
+      <h2>Plan Your Trip</h2>
+      <input type="text" id="destination" placeholder="Enter destination" required><br>
+      <input type="number" id="budget" placeholder="Enter budget" required><br>
+
+      <label for="style">Choose your travel style:</label><br>
+      <select id="style" required>
+        <option value="adventure">Adventure</option>
+        <option value="chill">Chill</option>
+        <option value="luxury">Luxury</option>
+      </select><br>
+
+      <button type="submit">Plan my trip</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

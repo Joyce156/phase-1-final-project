@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f6f9;
+  color: #333;
+}
+
+#container {
+  max-width: 700px;
+  margin: auto;
+}
+
+#country-details {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: white;
+}
+
+#country-details img {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+#country-form {
+  background: #fafafa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#country-form input,
+#country-form select,
+#country-form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+#country-form button {
+  background: #2d89ef;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#country-form button:hover {
+  background: #174999;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: red;
+}
